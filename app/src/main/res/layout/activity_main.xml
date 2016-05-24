@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageview_main"
+        android:src="@drawable/samcro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType = "centerCrop"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Tudo sobre suas séries favoritas. Em um só lugar."
+        android:textColor="#FFFFFF"
+        android:textSize="27sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"/>
+    <LinearLayout
+        android:id="@+id/linearlayout_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_gradient_transparent"
+        >
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_inside"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/enter_now"
+        android:background="#961dce"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+</RelativeLayout>
