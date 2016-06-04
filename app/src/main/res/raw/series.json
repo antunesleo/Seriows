@@ -1,0 +1,38 @@
+{
+  "series": [
+    {
+      "series_name":"Breaking Bad",
+      "series_activity":"2007/2013",
+
+      "series_type":"Drama",
+      "series_rate":"9,8",
+      "series_resume":"Uma serie muito foda para ver com os amiguinhos e a turma legal!",
+      "imagens": {
+        "url_primary_image":"http://img.olx.com.br/images/67/673607025583793.jpg",
+        "url_secondary_image":"http://novatec.com.br/figuras/capas/9788575224793.gif"
+      }
+    },
+    {
+      "series_name":"Vikings",
+      "series_activity":"2013/Atualmente",
+      "series_type":"Drama",
+      "series_rate":"8,8",
+      "series_resume":"Uma serie muito foda para ver com os amiguinhos e a turma legal!",
+      "imagens": {
+        "url_primary_image":"http://img.olx.com.br/images/67/673607025583793.jpg",
+        "url_secondary_image":"http://novatec.com.br/figuras/capas/9788575224793.gif"
+      }
+    },
+    {
+      "series_name":"Game of Thrones",
+      "series_activity":"2011/Atualmente",
+      "series_type":"Drama",
+      "series_rate":"9,8",
+      "series_resume":"Uma serie muito foda para ver com os amiguinhos e a turma legal!",
+      "imagens": {
+        "url_primary_image":"http://img.olx.com.br/images/67/673607025583793.jpg",
+        "url_imagem_secundaria":"http://novatec.com.br/figuras/capas/9788575224793.gif"
+      }
+    }
+  ]
+}

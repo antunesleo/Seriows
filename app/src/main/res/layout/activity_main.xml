@@ -3,43 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="seriows.ui.MainActivity"
+    android:background="#131516">
 
-    <ImageView
-        android:id="@+id/imageview_main"
-        android:src="@drawable/samcro"
+    <ListView
+        android:id="@+id/listview_series"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType = "centerCrop"
-        >
-    </ImageView>
+        android:layout_height="match_parent">
+    </ListView>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Tudo sobre suas séries favoritas. Em um só lugar."
-        android:textColor="#FFFFFF"
-        android:textSize="27sp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="120dp"/>
-    <LinearLayout
-        android:id="@+id/linearlayout_gradient"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/shape_gradient_transparent"
-        >
-    </LinearLayout>
-
-
-    <Button
-        android:id="@+id/button_inside"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
-        android:text="@string/enter_now"
-        android:background="#961dce"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"/>
 </RelativeLayout>
