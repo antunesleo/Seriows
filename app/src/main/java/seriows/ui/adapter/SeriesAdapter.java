@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -15,7 +16,7 @@ import seriows.model.Series;
 /**
  * Created by leonardo on 04/06/16.
  */
-public class SeriesAdapter {
+public class SeriesAdapter extends BaseAdapter {
 
     private Series mSeries;
     private Context mContext;
@@ -59,10 +60,9 @@ public class SeriesAdapter {
 
         viewHolder.mTextViewName.setText(mSeries.itens.get(position).seriesName);
 
-        Picasso.with(mContext).load(mSeries.itens.get(position).imagens.urlImagemPrincipal).
+        Picasso.with(mContext).load(mSeries.itens.get(position).imagens.urlPrimaryImage).
                 placeholder(R.mipmap.ic_launcher).
                 into(viewHolder.mImageViewItem);
-
 
         return convertView;
     }

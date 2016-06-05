@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/colorBackground"
-    tools:context="seriows.ui.adapter.DetailActivity">
+    tools:context="seriows.ui.DetailActivity">
 
     <TextView
         android:id="@+id/textview_series_name"
@@ -28,26 +28,97 @@
         android:layout_marginBottom="5dp"
         android:textSize="20sp"
         android:textColor="#ffffff"
-        android:text="Resumo:"
-        />
+        android:text="@string/textview_series_resume_label" />
+
+
 
     <TextView
         android:id="@+id/textview_series_resume"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/texview_series_resume_label"
+        android:layout_below="@id/texview_series_resume_label"
         android:textSize="15sp"
+
+        android:layout_marginBottom="5dp"
         android:textColor="#ffffff"
-        android:text="fsadkp fkapsofk fpsodk fposdkpkfspos
-        fsdpokpsdf pfosdkfs fsdpok fsdo ospdfks fposd fsd fkpos
-        dksofpskdopfksdapo fdspokf psdpof sdpokf sdpokf opsda fop
-        pofsdkpofksda  fopsdkpof sdp"
+        android:text="fsdfafa"
         />
 
 
-    series_name
-    series_activity // 2015/Atualmente
-    series_type // Drama
-    series_rate // Avaliação
-    series_resume // Resumo
+    <TextView
+        android:id="@+id/textview_series_type_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_series_resume"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:text="@string/textview_series_type"
+        />
+
+    <TextView
+        android:id="@+id/textview_series_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textview_series_type_label"
+        android:layout_below="@id/textview_series_resume"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:text="fsfsafsagdgdsgdsteteegsd."
+
+        />
+
+    <TextView
+        android:id="@+id/textview_series_rate_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:layout_below="@id/textview_series_type"
+        android:text="@string/textview_series_rate"
+        />
+
+    <TextView
+        android:id="@+id/textview_series_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textview_series_rate_label"
+        android:layout_below="@id/textview_series_type"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:text="fsfsafsagdgdsgdsteteegsd"
+        />
+
+    <TextView
+        android:id="@+id/textview_series_activity_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="@string/textview_activity"
+        android:layout_below="@id/textview_series_rate"/>
+
+    <TextView
+        android:id="@+id/textview_series_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="9.8"
+        android:layout_below="@id/textview_series_activity_label"/>
+
+
+
+
 </RelativeLayout>

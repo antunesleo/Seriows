@@ -12,6 +12,13 @@
         android:scaleType = "centerCrop"
         android:src="@drawable/sons_of_anarchy_season_7_series_finale_date_fx"
         />
+    <LinearLayout
+        android:id="@+id/linearlayout_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/shape_dark"
+        >
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textview_name"
@@ -22,7 +29,7 @@
         android:layout_marginLeft="10dp"
         android:textSize="30sp"
         android:text="Sons of Anarchy"
-        android:textColor="#ffed2c"
+        android:textColor="#ffffff"
         />
 
 

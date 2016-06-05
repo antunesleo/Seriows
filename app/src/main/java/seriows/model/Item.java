@@ -17,10 +17,10 @@ public class Item {
     public String seriesType;
 
     @SerializedName("series_rate")
-    public String seriesRate;
+    public float seriesRate;
 
     @SerializedName("series_resume")
-    public float seriesResume;
+    public String seriesResume;
 
     @SerializedName("imagens")
     public Imagem imagens;

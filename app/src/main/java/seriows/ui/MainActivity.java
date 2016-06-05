@@ -1,9 +1,7 @@
 package seriows.ui;
 
-import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.SyncStateContract;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -15,6 +13,9 @@ import com.google.gson.Gson;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+import seriows.database.helper.SerieHelper;
+import seriows.database.infrastructure.Constants;
+import seriows.model.Item;
 import seriows.model.Series;
 import seriows.ui.adapter.SeriesAdapter;
 
@@ -33,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         mSeries = getSeries();
 
         //Instancia classe e insere os dados do json no sqlite
-        SerieHelper mProdutoHelper = new SerieHelper(MainActivity.this);
-        mProdutoHelper.insertFromSeries(mSeries);
+        SerieHelper mSerieHelper = new SerieHelper(MainActivity.this);
+        mSerieHelper.insertFromSeries(mSeries);
 
         //Popula o adapter com a lista de produtos
         SeriesAdapter seriesAdapter = new SeriesAdapter(MainActivity.this, mSeries);
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             //Pega o id do item selecionado
-            ClipData.Item itemSelected = mSeries.itens.get(position);
+            Item itemSelected = mSeries.itens.get(position);
 
             Intent it = new Intent(MainActivity.this, DetailActivity.class);
             //Insere o pacote dos dados do item selecionado no intent para ser recebido pela outra act
@@ -55,15 +56,16 @@ public class MainActivity extends AppCompatActivity {
     };
 
 
-    private Bundle getBundleItem(ClipData.Item item){
+    private Bundle getBundleItem(Item item){
         //Cria um "pacote" com os dados do item clicado
         Bundle result = new Bundle();
-        result.putString(SyncStateContract.Constants.BundleExtras.VENDOR_NAME,item.seriesName);
-        result.putString(SyncStateContract.Constants.BundleExtras.CONTACT,item.seriesActivity);
-        result.putString(SyncStateContract.Constants.BundleExtras.PRODUCT_NAME,item.seriesRate);
-        result.putString(SyncStateContract.Constants.BundleExtras.DESCRIPTION,item.seriesType);
-        result.putString(SyncStateContract.Constants.BundleExtras.PRIMARY_IMAGE,item.imagens.urlPrimaryImages);
-        result.putString(SyncStateContract.Constants.BundleExtras.SECONDARY_IMAGE,item.imagens.urlSecondaryImages);
+        result.putString(Constants.BundleExtras.SERIES_NAME,item.seriesName);
+        result.putString(Constants.BundleExtras.SERIES_ACTIVITY,item.seriesActivity);
+        result.putFloat(Constants.BundleExtras.SERIES_RATE,item.seriesRate);
+        result.putString(Constants.BundleExtras.SERIES_TYPE,item.seriesType);
+        result.putString(Constants.BundleExtras.SERIES_RESUME,item.seriesResume);
+        result.putString(Constants.BundleExtras.SERIES_PRIMARY_IMAGE,item.imagens.urlPrimaryImage);
+        result.putString(Constants.BundleExtras.SERIES_SECONDARY_IMAGE,item.imagens.urlSecondaryImagem);
 
         return result;
     }
@@ -80,8 +82,5 @@ public class MainActivity extends AppCompatActivity {
         Series series = gson.fromJson(inputStreamReader, Series.class);
 
         return series;
-    }
-}
-
     }
 }

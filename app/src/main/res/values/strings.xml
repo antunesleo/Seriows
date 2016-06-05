@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Seriows</string>
+    <string name="textview_series_type">Tipo: </string>
+    <string name="textview_series_rate">Avaliação: </string>
+    <string name="textview_series_resume_label">Resumo: </string>
+    <string name="textview_activity">Atividade:</string>
 </resources>
