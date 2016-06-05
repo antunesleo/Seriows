@@ -12,6 +12,116 @@
       }
     },
     {
+      "series_name":"The Flash (2014)",
+      "series_activity":"2014/2016",
+      "series_type":"Ação",
+      "series_rate":"4.7",
+      "series_resume":"Barry Allen (Grant Gustin) era um funcionário da Polícia Científica que, ao sofrer um acidente, foi banhado por produtos químicos em seu laboratório e, em seguida, atingido por um raio. Foi a partir disso que ele começou a ser capaz de canalizar os poderes vindos do Campo de Velocidade e se locomover em altíssimas velocidades. Usando uma máscara e um uniforme vermelho, ele começa a usar suas habilidades para patrulhar Central City com a ajuda dos cientistas da S.T.A.R. Labs, e detém vilões ao mesmo tempo em que procura descobrir quem foi o assassino de sua mãe. ",
+      "imagens": {
+        "url_primary_image":"http://br.web.img2.acsta.net/pictures/14/08/27/12/50/043690.jpg",
+        "url_secondary_image":"https://jovemnerd.com.br/wp-content/uploads/The-Flash.jpg"
+      }
+    },
+
+    {
+      "series_name":"Outcast",
+      "series_activity":"2016/2016",
+      "series_type":"Drama",
+      "series_rate":"3.8",
+      "series_resume":"Kyle Barnes é um rapaz que, desde a infância, vem sendo alvo de possessões demoníacas. Agora, Kyle está determinado a descobrir a verdade sobre a maldição que lhe atormenta, mesmo que isso signifique um possível extermínio da vida na Terra.",
+      "imagens": {
+        "url_primary_image":"http://poltronanerd.com.br/wp-content/uploads/2015/07/poltrona_outcast_poster_06jul15.jpg",
+        "url_secondary_image":"https://pmcdeadline2.files.wordpress.com/2016/03/outcast-logo.jpg"
+      }
+    },
+
+    {
+      "series_name":"Arrow",
+      "series_activity":"2012/2016",
+      "series_type":"Fantasia",
+      "series_rate":"4.8",
+      "series_resume":"Playboy, milionário e mulherengo, Oliver Queen (Stephen Amell) está presumivelmente morto há 5 anos, quando um acidente de iate causou o desaparecimento dele, de seu pai, Robert (Jamey Sheridan), e Sara Lance, irmã de sua então namorada Laurel (Katie Cassidy). Mas Ollie sobreviveu e, preso em uma ilha, ele aprendeu a lutar por sua vida. De volta à civilização em Starling City, ele é um homem mudado e está decidido a honrar a memória do pai e livrar a cidade da corrupção. Disfarçado, ele usa as habilidades que aprendeu durante seu tempo de reclusão para isso, e ao mesmo tempo precisa esconder sua nova identidade da mãe, Moira (Susanna Thompson), da irmã, Thea (Willa Holland) e dos amigos.",
+      "imagens": {
+        "url_primary_image":"http://cdn.x2n.com.br/~filmesse/wp-content/uploads/2015/05/arrow-4a-temporada.jpg",
+        "url_secondary_image":"http://cdn.x2n.com.br/~filmesse/wp-content/uploads/2015/05/arrow-4a-temporada.jpg"
+      }
+    },
+
+    {
+      "series_name":"Pretty Little Liars",
+      "series_activity":"2010/2016",
+      "series_type":"Fantasia",
+      "series_rate":"4.7",
+      "series_resume":"Na pequena cidade de Rosewood, na Pensilvânia, as melhores amigas Spencer Hastings (Troian Bellisario), Aria Montgomery (Lucy Hale), Hanna Marin (Ashley Benson) e Emily Fields (Shay Mitchell) guardam complexos segredos. Alison (Sasha Pieterse), 5ª membra e líder do grupo, desapareceu há um ano e não deixou qualquer pista. As amigas recebem cartas misteriosas assinadas por uma letra e suspeitam que seja sua antiga companheira, mas a desconfiança que possuem em relação ao universo perverso no qual vivem provoca uma reflexão cada vez maior.",
+      "imagens": {
+        "url_primary_image":"http://i68.tinypic.com/6h0s5z.png",
+        "url_secondary_image":"http://i68.tinypic.com/6h0s5z.png"
+      }
+    },
+
+    {
+      "series_name":"Grey's Anatomy",
+      "series_activity":"2005/2016",
+      "series_type":"Drama",
+      "series_rate":"4.9",
+      "series_resume":"Meredith Grey (Ellen Pompeo) começa a trabalhar no Seattle Grace Hospital e logo descobre que passou a noite com um dos seus chefes, Dr. Derek Shepherd (Patrick Dempsey). Enquanto enfrenta os desafios da vida profissional, ela se aproxima dos outros internos liderados pela residente Dra. Bailey (Chandra Wilson): Cristina Yang (Sandra Oh), Izzie Stevens (Katherine Heigl), George O'Malley (T.R. Knight) e Alex Karev (Justin Chambers).",
+      "imagens": {
+        "url_primary_image":"http://br.web.img2.acsta.net/r_x_600/newsv7/15/04/11/16/43/2739080.jpg",
+        "url_secondary_image":"http://3.bp.blogspot.com/-HZgelaIAVwM/Uf_f2_JWe4I/AAAAAAAADG4/GkmuRpGyxZ4/s400/images+(2).jpg"
+      }
+    },
+
+    {
+      "series_name":"The Walking Dead",
+      "series_activity":"2010/2016",
+      "series_type":"Terror",
+      "series_rate":"4.7",
+      "series_resume":"Um Apocalipse provoca uma infestação de zumbis na cidade de Cynthiana, em Kentucky, nos Estados Unidos, e o oficial de polícia Rick Grimes (Andrew Lincoln) descobre que os mortos-vivos estão se propagando progressivamente. Ele decide unir-se aos homens e mulheres sobreviventes para que tenham mais força para combater o fenômeno que os atinge. O grupo percorre diferentes lugares em busca de soluções para o problema.",
+      "imagens": {
+        "url_primary_image":"http://www.1001actus.com/files/2014/01/the-walking-dead-affiche-fevrier-2014.jpg",
+        "url_secondary_image":"https://static.omelete.uol.com.br/media/extras/conteudos/the-walking-dead-season-5-trailer_YqmRNTU.png"
+      }
+    },
+    {
+      "series_name":"The 100",
+      "series_activity":"2014/2016",
+      "series_type":"Aventura",
+      "series_rate":"4.7",
+      "series_resume":"Quando uma guerra nuclear destruiu a civilização e o planeta Terra, os únicos sobreviventes foram 400 pessoas que estavam em 12 estações espaciais em órbita. 97 anos e três gerações depois, a população já contava com 4 mil pessoas, mas os recursos já vão escassos. Para garantir o futuro, um grupo de cem jovens é enviado à superfície da Terra para descobrir se ela está habitável. Com a sobrevivência da raça humana em suas mãos, estes jovens precisam superar suas diferenças e unir forças para cruzar juntos o seu caminho.",
+      "imagens": {
+        "url_primary_image":"http://www.tarafdari.com/sites/default/files/contents/user228897/content-image/the_100.jpg",
+        "url_secondary_image":"http://www.tarafdari.com/sites/default/files/contents/user228897/content-image/the_100.jpg"
+      }
+    },
+
+    {
+      "series_name":"Supernatural",
+      "series_activity":"2005/2016",
+      "series_type":"Terror",
+      "series_rate":"4.5",
+      "series_resume":"Desde que era pequeno, Sam Winchester (Jared Padalecki) tentava escapar do próprio passsado. Após a misteriosa morte de Mary (Samantha Smith), o pai de Sam passou a procurar vingança contra as forças do mal que mataram a esposa, destruindo qualquer ser maligno que cruze o seu caminho. Ao contrário de Sam, Dean (Jensen Ackles), irmão mais velho, sempre quis seguir os passos do pai. Sam está determinado a se livrar do  negócio da família , mas sua vida está prestes a tomar os rumos que ele não desejava, quando ele fica sem escolhas a não ser unir-se ao irmão.",
+      "imagens": {
+        "url_primary_image":"http://cdn.x2n.com.br/~filmesse/wp-content/uploads/2015/05/supernatural-11a-temporada-online.jpg",
+        "url_secondary_image":"http://cdn.x2n.com.br/~filmesse/wp-content/uploads/2015/05/supernatural-11a-temporada-online.jpg"
+      }
+    },
+
+
+    {
+      "series_name":"Mr. Robot",
+      "series_activity":"2015/2016",
+      "series_type":"Suspense",
+      "series_rate":"3.7",
+      "series_resume":"Elliot (Rami Malek) é um jovem programador que trabalha como engenheiro de segurança virtual durante o dia, e como hacker vigilante durante a noite. Elliot se vê numa encruzilhada quando o líder (Christian Slater) de um misterioso grupo de hacker o recruta para destruir a firma que ele é pago para proteger. Motivado pelas suas crenças pessoais, ele luta para resistir à chance de destruir os CEOs da multinacional que ele acredita estarem controlando - e destruindo - o mundo.",
+      "imagens": {
+        "url_primary_image":"http://cdn.x2n.com.br/~filmesse/wp-content/uploads/2015/05/supernatural-11a-temporada-online.jpg",
+        "url_secondary_image":"http://cdn.x2n.com.br/~filmesse/wp-content/uploads/2015/05/supernatural-11a-temporada-online.jpg"
+      }
+    },
+
+
+
+    {
       "series_name":"Vikings",
       "series_activity":"2013/Atualmente",
       "series_type":"Drama",
@@ -110,5 +220,7 @@
         "url_imagem_secundaria":"http://im.ziffdavisinternational.com/t/ign_br/news/g/game-of-th/game-of-thrones-resolves-another-longtime-book-mystery_w7wy.640.jpg"
       }
     }
+
+
   ]
 }

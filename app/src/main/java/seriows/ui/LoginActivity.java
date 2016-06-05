@@ -13,6 +13,7 @@ import com.vstechlab.easyfonts.EasyFonts;
 public class LoginActivity extends AppCompatActivity {
     Button mButtonLogin;
     TextView mTextViewLogin;
+    TextView mTextViewAppName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,9 @@ public class LoginActivity extends AppCompatActivity {
         mButtonLogin.setTypeface(EasyFonts.robotoLight(this));
         mTextViewLogin = (TextView) findViewById(R.id.textview_login);
         mTextViewLogin.setTypeface(EasyFonts.robotoThin(this));
+        mTextViewAppName = (TextView) findViewById(R.id.textview_appname);
+        mTextViewAppName.setTypeface(EasyFonts.robotoThin(this));
+
     }
     public View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override

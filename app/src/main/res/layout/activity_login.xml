@@ -35,6 +35,17 @@
         >
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textview_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seriows"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/textview_login"
+        android:layout_marginBottom="9dp"/>
+
 
     <Button
         android:id="@+id/button_login"

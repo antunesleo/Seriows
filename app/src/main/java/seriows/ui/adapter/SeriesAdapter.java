@@ -61,7 +61,7 @@ public class SeriesAdapter extends BaseAdapter {
         viewHolder.mTextViewName.setText(mSeries.itens.get(position).seriesName);
 
         Picasso.with(mContext).load(mSeries.itens.get(position).imagens.urlPrimaryImage).
-                placeholder(R.mipmap.ic_launcher).
+                placeholder(R.drawable.blackcat).
                 into(viewHolder.mImageViewItem);
 
         return convertView;

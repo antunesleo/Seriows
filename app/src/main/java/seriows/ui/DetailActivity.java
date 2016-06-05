@@ -3,10 +3,12 @@ package seriows.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.leonardo.teste.R;
+import com.squareup.picasso.Picasso;
 
 import seriows.database.infrastructure.Constants;
 import seriows.model.Imagem;
@@ -22,6 +24,7 @@ public class DetailActivity extends AppCompatActivity {
     private TextView mTextViewSeriesResume;
     private TextView mTextViewSeriesRate;
     private TextView mTextViewSeriesActivity;
+    private ImageView mImageViewSerie;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,7 @@ public class DetailActivity extends AppCompatActivity {
         mTextViewSeriesResume = (TextView) findViewById(R.id.textview_series_resume);
         mTextViewSeriesRate = (TextView) findViewById(R.id.textview_series_rate);
         mTextViewSeriesActivity = (TextView) findViewById(R.id.textview_series_activity);
+        mImageViewSerie = (ImageView) findViewById(R.id.imageview_serie);
 
         Intent it = getIntent();
         Bundle bundle = it.getExtras();
@@ -56,6 +60,9 @@ public class DetailActivity extends AppCompatActivity {
         mTextViewSeriesRate.setText(String.valueOf(item.seriesRate));
         mTextViewSeriesType.setText(item.seriesType);
         mTextViewSeriesResume.setText(item.seriesResume);
+        Picasso.with(DetailActivity.this).load(imagem.urlSecondaryImagem).
+                placeholder(R.drawable.blackcat).
+                into(mImageViewSerie);
 
     }
 }
