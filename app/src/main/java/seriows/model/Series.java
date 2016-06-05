@@ -10,6 +10,6 @@ import java.util.List;
  * Created by leonardo on 31/05/16.
  */
 public class Series {
-    @SerializedName("series")
+    @SerializedName("data")
     public List<ClipData.Item> itens;
 }

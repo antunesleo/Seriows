@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         mSeries = getSeries();
 
         //Instancia classe e insere os dados do json no sqlite
-        ProdutoHelper mProdutoHelper = new ProdutoHelper(MainActivity.this);
+        SerieHelper mProdutoHelper = new SerieHelper(MainActivity.this);
         mProdutoHelper.insertFromSeries(mSeries);
 
         //Popula o adapter com a lista de produtos
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     private Series getSeries(){
 
         //abre o arquivo json (pega a referencia do arquivo) na pasta raw
-        InputStream inputStream = getResources().openRawResource(R.raw.series);
+        InputStream inputStream = getResources().openRawResource(R.raw.data);
         //é preciso criar este objeto para o gsin reconhecer porque este ele o formato que ele pede
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
         //cria uma nova instancia de gson
