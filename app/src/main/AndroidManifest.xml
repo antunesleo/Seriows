@@ -19,7 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="seriows.ui.DetailActivity"></activity>
+        <activity android:name="seriows.ui.DetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seriows.ui.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
